@@ -11,6 +11,7 @@
 		2E03ED2520E0546D00CB7F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E03ED2320E0546D00CB7F1E /* Main.storyboard */; };
 		2E03ED2720E0547100CB7F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E03ED2620E0547100CB7F1E /* Assets.xcassets */; };
 		2E03ED2A20E0547100CB7F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E03ED2820E0547100CB7F1E /* LaunchScreen.storyboard */; };
+		2E03ED3A20E0A2C400CB7F1E /* ToDoListViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E03ED3920E0A2C400CB7F1E /* ToDoListViewController copy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2E03ED2620E0547100CB7F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E03ED2920E0547100CB7F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E03ED2B20E0547100CB7F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E03ED3920E0A2C400CB7F1E /* ToDoListViewController copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ToDoListViewController copy.swift"; path = "Todoey/Controllers/ToDoListViewController copy.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,15 @@
 				2E03ED2B20E0547100CB7F1E /* Info.plist */,
 			);
 			path = Todoey;
+			sourceTree = "<group>";
+		};
+		2E03ED3820E0A29000CB7F1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E03ED3920E0A2C400CB7F1E /* ToDoListViewController copy.swift */,
+			);
+			name = Controllers;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
